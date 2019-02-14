@@ -51,7 +51,7 @@ NOTE: It takes time to download the images, depends on your internet connection 
 
 After you download the Fabric samples, Images and Binaries, next is Clone or download the github repository by typing this command:
 
-Step 3: git clone https://github.com/khrandm/blockchain-training-labs
+Step 3: git clone https://github.com/jonathanbalane12/blockchain-training-labs.git
 Step 4: cd fabric-samples
 
 The image above is when you done the instructions above.
