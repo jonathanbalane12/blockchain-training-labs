@@ -3,9 +3,6 @@
 Jonathan Pio Balane
 Blockchain Cadet
 
-Hyperledger Activity Documentation
-(Optional Assignment)
-
 Requirement Software Applications:
 	- Virtual Machine
 	- Ubuntu OS img(if using Virtual Machine)
@@ -108,17 +105,16 @@ Step 24: Select the Body Tab.
 Step 25: Select the x-www-form-url-encoded
 Step 26: Type these keys and values.
  
-	Key				      Value
-	invoicenumber		INVOICE001
-	billedto			  OEM
-	invoicedate			02/08/19
-	invoiceamount		10000
-	itemdescription	KEYBOARD
-	goodreceived		False
-	ispaid				  False
-	paidamount			0
-	repaid				  False
-	repaymentamount	0
+	invoicenumber:INVOICE001
+	billedto:OEM
+	invoicedate:02/08/19
+	invoiceamount:10000
+	itemdescription:KEYBOARD
+	goodreceived:False
+	ispaid:False
+	paidamount:0
+	repaid:False
+	repaymentamount:0
 
 Step 27: Click the Send button.
 
@@ -144,9 +140,8 @@ Step 33: Select the Body Tab
 Step 34:  Select the x-www-form-url-encoded
 Step 35: Type these keys and values.
  
-  Key				      Value
-	invoicenumber		INVOICE001
-	goodreceived		OEM
+	invoicenumber:INVOICE001
+	goodreceived:OEM
 
 Step 36: Click the Send button.
 
@@ -162,11 +157,9 @@ Step 41: Add the value "bank"
 Step 42: Select the Body Tab
 Step 43:  Select the x-www-form-url-encoded
 Step 44: Type these keys and values.
- 
-	
-	Key				      Value
-	invoicenumber		INVOICE001
-	paidamount			9000
+
+	invoicenumber:INVOICE001
+	paidamount:9000
 
 Step 45: Click the Send button.
 
@@ -191,9 +184,8 @@ Step 50: Select the Body Tab
 Step 51: Select the x-www-form-url-encoded
 Step 52: Type these keys and values.
  
-	Key				      Value
-	invoicenumber		INVOICE001
-	repaymentamount	11000
+	invoicenumber:INVOICE001
+	repaymentamount:11000
 
 NOTE: the repayment amount should be more than paidamount.
 
@@ -215,9 +207,8 @@ Step 57: Add the value "supplier"
 Step 58: Select Body Tab.
 Step 59: Select the x-www-form-url-encoded
 Step 60: Type these keys and values.
- 
-	Key				      Value
-	invoicenumber		INVOICE001
+
+	invoicenumber:INVOICE001
 
 Step 61: Click the Send button.
 
